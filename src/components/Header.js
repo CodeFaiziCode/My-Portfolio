@@ -13,7 +13,7 @@ const Header = () => {
     <header className="sticky top-0 text-white bg-black p-8 shadow-sm shadow-orange-500 z-50">
       <section className="max-w-7xl mx-auto flex justify-between items-center">
         <h1 className="font-itim text-4xl font-medium cursor-pointer">
-          M.Muiz
+          M Faizan Vayani
         </h1>
         <div>
           <button
@@ -41,7 +41,7 @@ const Header = () => {
             >
               About
             </Link>
-            <Link
+            {/* <Link
               to="projects"
               smooth="true"
               offset={-100}
@@ -49,7 +49,7 @@ const Header = () => {
               className="cursor-pointer decoration-2 decoration-orange-500 hover:underline hover:underline-offset-8"
             >
               Projects
-            </Link>
+            </Link> */}
             <Link
               to="skills"
               smooth="true"

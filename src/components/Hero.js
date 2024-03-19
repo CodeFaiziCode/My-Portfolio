@@ -8,7 +8,7 @@ const Hero = () => {
       id="hero"
       className="mb-12 flex flex-col-reverse items-center justify-center gap-5 text-white p-8 sm:flex-row tallscreen:section-min-height widescreen:section-min-height"
     >
-    <img className="sm:w-2/6" src="/img/main.webp" alt="Hero" />
+      <img className="sm:w-2/6" src="/img/main.webp" alt="Hero" />
       <article className="sm:w-2/4 flex flex-col justify-center items-center text-center gap-4 py-5 sm:items-start sm:text-left sm:ml-24">
         <span className="font-kavoon max-w-md sm:w-full text-orange-500 font-medium text-5xl lg:text-7xl">
           Hello I'm
@@ -19,13 +19,13 @@ const Hero = () => {
               autoStart: true,
               loop: true,
               delay: 40,
-              strings: ["Frontend Developer","Backend Developer", "React Js Developer"],
+              strings: ["Mobile App Developer", "Flutter Developer"],
             }}
           />
         </h1>
         <p className="font-jaldi md:w-full text-white lg:text-xl">
-          I'm a FullStack Developer with a passion for creating interactive and
-          user-friendly web applications.
+          I'm a Mobile App Developer with a passion for creating interactive and
+          user-friendly Mobile Applications.
         </p>
         <div className="font-jaldi w-full md:max-w-md flex flex-col items-center gap-4 sm:flex-row sm:items-start pt-3">
           <Link

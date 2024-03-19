@@ -50,7 +50,7 @@ const About = () => {
               </div>
               <p className="font-jaldi max-w-md">
                 I am excited to contribute to a professional team and work on
-                meaningful projects as a Frontend Web Developer.
+                meaningful projects as a Mobile App Developer.
               </p>
             </div>
           </article>
