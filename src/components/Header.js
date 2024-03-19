@@ -41,7 +41,7 @@ const Header = () => {
             >
               About
             </Link>
-            {/* <Link
+            <Link
               to="projects"
               smooth="true"
               offset={-100}
@@ -49,7 +49,7 @@ const Header = () => {
               className="cursor-pointer decoration-2 decoration-orange-500 hover:underline hover:underline-offset-8"
             >
               Projects
-            </Link> */}
+            </Link>
             <Link
               to="skills"
               smooth="true"
